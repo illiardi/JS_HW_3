@@ -10,16 +10,18 @@
 //     console.log('Finally index x=' x)
 // }
 
-// Array;
+// // Array;
 
-const sheets1 = [144, 20, 1, 999, 100];
+// const sheets1 = [144, 20, 1, 999, 100, 91, 1, 23];
 
-const sheets2 = [2, 15, 1010, 777, 8];
+// const sheets2 = [2, 15, 1010, 777, 8];
 
-const newsheets = [];
+// const newsheets = [];
 
-for (let i = 0; i < sheets1.length; i++) {
-  newsheets[i] = sheets1[i] + sheets2[i];
-}
+// const resultLenght = sheets1.lenght < sheets2.length ? sheets1.length : sheets2.length;
 
-console.log("Results on new sheet =", newsheets);
+// for (let i = 0; i < resultLenght; i++) {
+//   newsheets[i] = (sheets1[i] || 0) + (sheets2[i] || 0);
+// }
+
+// console.log("Results on new sheet =", newsheets);
